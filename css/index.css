@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.paginaPrincipal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.paginaPrincipal header,
+.paginaPrincipal footer{
+    width: 100%;
+    background-color: rgb(202, 140, 221);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginaPrincipal footer p{
+    color: #faebd7;
+}
+.colorWhite{
+    color: antiquewhite;
+}
